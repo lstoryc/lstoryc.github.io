@@ -7,7 +7,7 @@
 <!--<![endif]-->
 
 <head>
-  <title>Archives | Lstoryc Blog</title>
+  <title>处理公司上网需要代理导致 Git NPM 无法正常连接外网 | Lstoryc Blog</title>
   <!-- Meta data -->
     <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" >
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
@@ -51,7 +51,7 @@
 </head>
 
 <!--
-<body class="home-template">
+<body class="post-template">
 -->
 <body id="index" class="lightnav animsition">
 
@@ -145,78 +145,77 @@
         <!-- ============================ Header & Logo bar =========================== -->
 
 
-      <!-- ============================ Hero Image =========================== -->
-
-<section id="hero" class="scrollme">
-    <div class="container-fluid element-img" style="background: url(/img/bg_img_lstoryc_2.jpg) no-repeat center center fixed;background-size: cover">
-        <div class="row">
-            <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 vertical-align cover boost text-center">
-                <div class="center-me animateme" data-when="exit" data-from="0" data-to="0.6" data-opacity="0" data-translatey="100">
-                    <div>
-                        
-                        <h2></h2>
-                        <p></p>
-                        
-                        <h2></h2>
-                        <p></p>
-                        
-
-                    </div>
-                </div>
-            </div>
-            <!-- // .col-md-12 -->
-        </div>
-        <div class="herofade beige-dk"></div>
-    </div>
-</section>
-
-<!-- Height spacing helper -->
-<div class="heightblock"></div>
-<!-- // End height spacing helper -->
-
-<!-- ============================ END Hero Image =========================== -->
-
-
-
-
-<section id="services">
+      
+<section id="intro">
     <div class="container">
-        <div class="row">
-            <div class="col-md-10 col-md-offset-1">
-                <div class="row boxes">
-                    
-                    
-                        
-                        
-                        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 wow fadeInUp" data-wow-delay="0.3s">
-                            
-                              <h4 class="title"><a href="/2018/04/16/hello-world/">1st</a></h4>
-                            
-                            <p><time datetime="2018-04-16T12:15:07.722Z"><a href="/2018/04/16/hello-world/">2018-04-16</a></time></p>
-                        </div>
-                    
-                        
-                        
-                        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 wow fadeInUp" data-wow-delay="0.3s">
-                            
-                              <h4 class="title"><a href="/2017/04/27/处理公司上网需要代理导致-Git-NPM-无法正常连接外网/">处理公司上网需要代理导致 Git NPM 无法正常连接外网</a></h4>
-                            
-                            <p><time datetime="2017-04-27T03:40:32.000Z"><a href="/2017/04/27/处理公司上网需要代理导致-Git-NPM-无法正常连接外网/">2017-04-27</a></time></p>
-                        </div>
-                    
-                </div>
-            </div>    
+        <div class="row col-md-offset-2">
+            <div class="col-md-8">
+    			<span class="post-meta">
+      <time datetime="2017-04-27T03:40:32.000Z" itemprop="datePublished">
+          2017-04-27
+      </time>
+    
+    
+    | 
+    <a href='/tags/Git/'>Git</a>,
+    
+    <a href='/tags/NPM/'>NPM</a>,
+    
+    <a href='/tags/公司上网代理/'>公司上网代理</a>
+    
+    
+</span>
+                <h1>处理公司上网需要代理导致 Git NPM 无法正常连接外网</h1>
+            </div>
         </div>
-    </div>
-</section> 
+        <div class="col-md-8 col-md-offset-2">
+      		<p>#解决公司上网需要设置代理导致 git npm 无法正常使用</p>
+<p>####1. git: </p>
+<p>######设置git代理，具体代理地址和端口参考贵公司提供的地址<br>    git config –global http.proxy <a href="http://10.61.20.200:1081" target="_blank" rel="noopener">http://10.61.20.200:1081</a></p>
+<p>######查看git全局配置信息（编辑参数为 -e）<br>    git config –global -l</p>
+<p>####2. npm</p>
+<p>######处理npm install失败，报503错误<br>    npm config set registry=<a href="http://registry.npmjs.org" target="_blank" rel="noopener">http://registry.npmjs.org</a></p>
+<p>######查看npm全部配置<br>    npm config list -l</p>
+<p>######其中有个用户配置信息, 该文件内容为用户配置项</p>
+<blockquote>
+<p>; userconfig C:\Users\xxxx.npmrc<br>registry = “<a href="http://registry.npmjs.org/&quot;" target="_blank" rel="noopener">http://registry.npmjs.org/&quot;</a></p>
+</blockquote>
 
-<section id="statement">
-    <div class="container text-center wow fadeInUp" data-wow-delay="0.5s">
-        <div class="row">
-            <p>虽然还没想好写点什么，但是总觉得这里放个屁比较和谐。</p>
+            <div class="clearfix"></div>
+            <hr class="nogutter">
         </div>
+        <nav class="pagination" role="pagination">
+    
+    <a class="pull-left" href="/2018/04/16/hello-world/" style="float: left;">
+        ← 1st
+    </a>
+    
+    
+</nav>
+
+        <div class="duoshuo">
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+	var disqus_shortname = 'lstoryc-github-io';
+	window.addEventListener('load', function(){
+		(function(){
+			var dsq = document.createElement('script');
+			dsq.type = 'text/javascript';
+			dsq.async = true;
+			dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+			(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+		}());
+	});
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+
+
+</div>
     </div>
 </section>
+
+
       
 <!-- ============================ Footer =========================== -->
 

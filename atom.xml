@@ -39,4 +39,36 @@
     
   </entry>
   
+  <entry>
+    <title>处理公司上网需要代理导致 Git NPM 无法正常连接外网</title>
+    <link href="https://lstoryc.github.io/2017/04/27/%E5%A4%84%E7%90%86%E5%85%AC%E5%8F%B8%E4%B8%8A%E7%BD%91%E9%9C%80%E8%A6%81%E4%BB%A3%E7%90%86%E5%AF%BC%E8%87%B4-Git-NPM-%E6%97%A0%E6%B3%95%E6%AD%A3%E5%B8%B8%E8%BF%9E%E6%8E%A5%E5%A4%96%E7%BD%91/"/>
+    <id>https://lstoryc.github.io/2017/04/27/处理公司上网需要代理导致-Git-NPM-无法正常连接外网/</id>
+    <published>2017-04-27T03:40:32.000Z</published>
+    <updated>2018-04-27T14:54:54.551Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;#解决公司上网需要设置代理导致 git npm 无法正常使用&lt;/p&gt;
+&lt;p&gt;####1. git: &lt;/p&gt;
+&lt;p&gt;######设置git代理，具体代理地址和端口参考贵公司提供的地址&lt;br&gt;    git config –global http.proxy &lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="工作" scheme="https://lstoryc.github.io/categories/%E5%B7%A5%E4%BD%9C/"/>
+    
+    
+      <category term="Git" scheme="https://lstoryc.github.io/tags/Git/"/>
+    
+      <category term="NPM" scheme="https://lstoryc.github.io/tags/NPM/"/>
+    
+      <category term="公司上网代理" scheme="https://lstoryc.github.io/tags/%E5%85%AC%E5%8F%B8%E4%B8%8A%E7%BD%91%E4%BB%A3%E7%90%86/"/>
+    
+  </entry>
+  
 </feed>
