@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://lstoryc.github.io/"/>
-  <updated>2018-04-27T15:07:14.202Z</updated>
+  <updated>2018-04-27T15:08:02.000Z</updated>
   <id>https://lstoryc.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://lstoryc.github.io/2018/04/27/Mysql%20odbc%20windows%207%20x64%20%E5%AE%89%E8%A3%85%E6%8A%A5%E9%94%99/"/>
     <id>https://lstoryc.github.io/2018/04/27/Mysql odbc windows 7 x64 安装报错/</id>
     <published>2018-04-27T14:59:52.147Z</published>
-    <updated>2018-04-27T15:07:14.202Z</updated>
+    <updated>2018-04-27T15:08:02.000Z</updated>
     
     <summary type="html">
     
@@ -43,7 +43,7 @@
     <link href="https://lstoryc.github.io/2018/04/27/%E5%A4%84%E7%90%86%E5%85%AC%E5%8F%B8%E4%B8%8A%E7%BD%91%E9%9C%80%E8%A6%81%E4%BB%A3%E7%90%86%E5%AF%BC%E8%87%B4-Git-NPM-%E6%97%A0%E6%B3%95%E6%AD%A3%E5%B8%B8%E8%BF%9E%E6%8E%A5%E5%A4%96%E7%BD%91/"/>
     <id>https://lstoryc.github.io/2018/04/27/处理公司上网需要代理导致-Git-NPM-无法正常连接外网/</id>
     <published>2018-04-27T14:53:30.569Z</published>
-    <updated>2018-04-27T14:58:50.000Z</updated>
+    <updated>2018-04-27T15:08:27.909Z</updated>
     
     <summary type="html">
     
@@ -51,9 +51,7 @@
       
         
         
-          &lt;p&gt;#解决公司上网需要设置代理导致 git npm 无法正常使用&lt;/p&gt;
-&lt;p&gt;####1. git: &lt;/p&gt;
-&lt;p&gt;######设置git代理，具体代理地址和端口参考贵公司提供的地址&lt;br&gt;    git config –global http.proxy &lt;a
+          &lt;h1 id=&quot;解决公司上网需要设置代理导致-git-npm-无法正常使用&quot;&gt;&lt;a href=&quot;#解决公司上网需要设置代理导致-git-npm-无法正常使用&quot; class=&quot;headerlink&quot; title=&quot;解决公司上网需要设置代理导致 git npm
         
       
     

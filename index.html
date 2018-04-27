@@ -221,12 +221,9 @@ Error 1918. Error installing ODBC driver MySQL ODBC 5.3 ANSI Driver, ODBC error 
                 <div class="col-md-8">
                     <p class="index-excerpt">
                       
-                        #解决公司上网需要设置代理导致 git npm 无法正常使用
-####1. git: 
-######设置git代理，具体代理地址和端口参考贵公司提供的地址    git config –global http.proxy http://10.61.20.200:1081
-######查看git全局配置信息（编辑参数为 -e）    git config –global -l
-####2. npm
-######处理npm install失
+                        解决公司上网需要设置代理导致 git npm 无法正常使用1. git:设置git代理，具体代理地址和端口参考贵公司提供的地址git config --global http.proxy http://10.61.20.200:1081
+查看git全局配置信息（编辑参数为 -e）git config --global -l
+2. npm处理npm install失败，报503错误npm config set registry=http:
                       
                     </p>
                     
