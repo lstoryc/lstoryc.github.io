@@ -151,7 +151,7 @@
             </div>
         </div>
         <div class="col-md-8 col-md-offset-2">
-      		<h1 id="解决公司上网需要设置代理导致-git-npm-无法正常使用"><a href="#解决公司上网需要设置代理导致-git-npm-无法正常使用" class="headerlink" title="解决公司上网需要设置代理导致 git npm 无法正常使用"></a>解决公司上网需要设置代理导致 git npm 无法正常使用</h1><h4 id="1-git"><a href="#1-git" class="headerlink" title="1. git:"></a>1. git:</h4><h6 id="设置git代理，具体代理地址和端口参考贵公司提供的地址"><a href="#设置git代理，具体代理地址和端口参考贵公司提供的地址" class="headerlink" title="设置git代理，具体代理地址和端口参考贵公司提供的地址"></a>设置git代理，具体代理地址和端口参考贵公司提供的地址</h6><pre><code>git config --global http.proxy http://10.61.20.200:1081
+      		<h4 id="1-git"><a href="#1-git" class="headerlink" title="1. git:"></a>1. git:</h4><h6 id="设置git代理，具体代理地址和端口参考贵公司提供的地址"><a href="#设置git代理，具体代理地址和端口参考贵公司提供的地址" class="headerlink" title="设置git代理，具体代理地址和端口参考贵公司提供的地址"></a>设置git代理，具体代理地址和端口参考贵公司提供的地址</h6><pre><code>git config --global http.proxy http://10.61.20.200:1081
 </code></pre><h6 id="查看git全局配置信息（编辑参数为-e）"><a href="#查看git全局配置信息（编辑参数为-e）" class="headerlink" title="查看git全局配置信息（编辑参数为 -e）"></a>查看git全局配置信息（编辑参数为 -e）</h6><pre><code>git config --global -l
 </code></pre><h4 id="2-npm"><a href="#2-npm" class="headerlink" title="2. npm"></a>2. npm</h4><h6 id="处理npm-install失败，报503错误"><a href="#处理npm-install失败，报503错误" class="headerlink" title="处理npm install失败，报503错误"></a>处理npm install失败，报503错误</h6><pre><code>npm config set registry=http://registry.npmjs.org
 </code></pre><h6 id="查看npm全部配置"><a href="#查看npm全部配置" class="headerlink" title="查看npm全部配置"></a>查看npm全部配置</h6><pre><code>npm config list -l

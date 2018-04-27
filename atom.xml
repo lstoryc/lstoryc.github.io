@@ -43,7 +43,7 @@
     <link href="https://lstoryc.github.io/2018/04/27/%E5%A4%84%E7%90%86%E5%85%AC%E5%8F%B8%E4%B8%8A%E7%BD%91%E9%9C%80%E8%A6%81%E4%BB%A3%E7%90%86%E5%AF%BC%E8%87%B4-Git-NPM-%E6%97%A0%E6%B3%95%E6%AD%A3%E5%B8%B8%E8%BF%9E%E6%8E%A5%E5%A4%96%E7%BD%91/"/>
     <id>https://lstoryc.github.io/2018/04/27/处理公司上网需要代理导致-Git-NPM-无法正常连接外网/</id>
     <published>2018-04-27T14:53:30.569Z</published>
-    <updated>2018-04-27T15:08:27.909Z</updated>
+    <updated>2018-04-27T15:11:57.542Z</updated>
     
     <summary type="html">
     
@@ -51,7 +51,7 @@
       
         
         
-          &lt;h1 id=&quot;解决公司上网需要设置代理导致-git-npm-无法正常使用&quot;&gt;&lt;a href=&quot;#解决公司上网需要设置代理导致-git-npm-无法正常使用&quot; class=&quot;headerlink&quot; title=&quot;解决公司上网需要设置代理导致 git npm
+          &lt;h4 id=&quot;1-git&quot;&gt;&lt;a href=&quot;#1-git&quot; class=&quot;headerlink&quot; title=&quot;1. git:&quot;&gt;&lt;/a&gt;1. git:&lt;/h4&gt;&lt;h6 id=&quot;设置git代理，具体代理地址和端口参考贵公司提供的地址&quot;&gt;&lt;a
         
       
     
